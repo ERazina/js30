@@ -1,7 +1,38 @@
+body{
+    background: grey;
+    text-align: center;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-gap: 10px;
+    width: 80%;
+    margin: auto;
+}
 .key{
-    width: 50px;
     height: 50px;
+    width: 50px;
+    transition: all 0.07s;
     border: 5px solid black;
-    color: black;
-    background: transparent;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-color: black;
+
+    /* transition-property: border-color;
+    transition-duration: 0.07s;
+    transition-delay: 1s; */
+}
+
+kbd{
+    font-size: 40px;
+}
+.highlight{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    /* box-shadow: 0, 0, 10px, #ffc600; */
 }
