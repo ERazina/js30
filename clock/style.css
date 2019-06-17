@@ -1,0 +1,48 @@
+body{
+    background: black;
+}
+.clock{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+.clock-wrapper{
+    width: 300px;
+    height: 300px;
+    border: 10px solid white;
+    border-radius: 50%;
+    position: relative;
+}
+.clock-hourHand{
+    width: 100px;
+    height: 10px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: rotate(-90deg);
+    transform-origin: 0%;
+    border-radius: 5px;
+}
+.clock-minHand{
+    width: 130px;
+    height: 10px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: rotate(-90deg);
+    transform-origin: 0%; 
+    border-radius: 5px; 
+}
+.clock-secondsHand{
+    width: 130px;
+    height: 5px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: rotate(-90deg);
+    transform-origin: 0%;  
+    border-radius: 5px;
+}
